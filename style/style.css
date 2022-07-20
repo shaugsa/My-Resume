@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, span, a, p {
+    margin: 0;
+}
+
+.main {
+    width: 855px;
+    height: 1210px;
+}
+
+.sidebar {
+    width: 237px;
+    background-color: #02266C;
+    padding: 51px 51px 36px 51px;
+}
