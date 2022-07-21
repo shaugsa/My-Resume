@@ -8,12 +8,90 @@ h1, h2, h3, h4, h5, h6, span, a, p {
 }
 
 .main {
+    margin: 0 auto;
     width: 855px;
-    height: 1210px;
+    display: flex;
 }
 
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.sidebar .text {
+    color: #fff;
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.sidebar .title {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/*sidebar*/
 .sidebar {
     width: 237px;
     background-color: #02266C;
     padding: 51px 51px 36px 51px;
+}
+
+.contact__list {
+    padding: 0;
+}
+
+.contact__item {
+    list-style: none;
+}
+
+.contact__item__link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.skills__list {
+    padding: 0;
+}
+
+.skills__item {
+    list-style: none;
+}
+
+.education__list {
+    padding: 0;
+}
+
+.education__item {
+    list-style: none;
+    margin-bottom: 13px;
+}
+
+.education__subtitle {
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+/*summary*/
+.summary {
+    width: 100%;
+}
+
+.header__photo {
+    width: 100px;
+    height: 100px;
+}
+
+.photo {
+    width: 150px;
+    height: 200px;
 }
