@@ -5,6 +5,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, span, a, p {
     margin: 0;
+    padding: 0;
 }
 
 .main {
@@ -86,6 +87,25 @@ h1, h2, h3, h4, h5, h6, span, a, p {
     width: 100%;
 }
 
+.summary__header {
+    background-color: #EAEDF3;
+    padding: 51px 51px 51px 38px;
+}
+
+.title__name {
+    padding: 0;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 66px;
+    margin-bottom: 7px;
+}
+
+.title__position {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19.64px;
+}
+
 .header__photo {
     width: 100px;
     height: 100px;
@@ -93,5 +113,9 @@ h1, h2, h3, h4, h5, h6, span, a, p {
 
 .photo {
     width: 150px;
-    height: 200px;
+    height: 100%;
+}
+
+.body__experience {
+    padding: 17px 51px 31px 29px;
 }
