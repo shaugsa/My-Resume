@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, span, a, p {
 
 .main {
     margin: 0 auto;
-    width: 855px;
+    max-width: 855px;
     display: flex;
 }
 
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, span, a, p {
 
 /*sidebar*/
 .sidebar {
-    width: 237px;
+    max-width: 237px;
     background-color: #02266C;
     padding: 51px 51px 36px 51px;
 }
@@ -52,11 +52,11 @@ h1, h2, h3, h4, h5, h6, span, a, p {
 
 .contact__item {
     list-style: none;
+    margin-bottom: 5px;
 }
 
 .contact__item__link {
     color: #fff;
-    text-decoration: none;
     margin-left: 10px;
 }
 
@@ -116,6 +116,16 @@ h1, h2, h3, h4, h5, h6, span, a, p {
     height: 100%;
 }
 
-.body__experience {
+.summary__body {
     padding: 17px 51px 31px 29px;
+}
+
+.summary__body .title {
+    margin-bottom: 10px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.body__about-me {
+    margin-bottom: 20px;
 }
